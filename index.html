@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Glagolitic&family=Playfair+Display:wght@500&family=Poppins:ital,wght@0,500;1,400&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="buttons">
+      <button class="bold"><b>B</b></button>
+      <button class="italic"><i>I</i></button>
+      <button class="underline"><u>U</u></button>
+      <button class="copy">Copy</button>
+      <button class="cut">Cut</button>
+    </div>
+
+    <div class="text-area" contenteditable="true"></div>
+
+    <input type="file" name="uploader" id="uploader" accept="image/*" capture="camera" />
+
+    <script src="./app.js"></script>
+  </body>
+</html>

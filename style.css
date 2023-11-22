@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Noto Sans Glagolitic;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text-area {
+    width: 98%;
+    height: 500px;
+    margin: 1%;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 5px;
+}
